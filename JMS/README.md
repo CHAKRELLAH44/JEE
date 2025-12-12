@@ -211,11 +211,11 @@ public class Product implements Serializable {
 
 ### 7. Résultat obtenu
 
-✅ **Communication asynchrone fonctionnelle**  
-✅ **Publication et consommation via Topic**  
-✅ **Persistance des messages dans le broker**  
-✅ **Diffusion des messages à tous les abonnés**  
-✅ **Visualisation complète dans la console Artemis**
+ **Communication asynchrone fonctionnelle**  
+ **Publication et consommation via Topic**  
+ **Persistance des messages dans le broker**  
+ **Diffusion des messages à tous les abonnés**  
+ **Visualisation complète dans la console Artemis**
 
 ### 8. Utilité du TP
 
@@ -230,12 +230,12 @@ Ce TP permet de comprendre :
 ## 9. Architecture détaillée
 
 ```
-┌─────────────────┐    Publie    ┌─────────────────┐
-│                 │──────────────►│                 │
-│   Producer      │              │    Broker       │
-│  (Spring Boot)  │              │  ActiveMQ       │
-│                 │◄──────────────│   Artemis      │
-└─────────────────┘    Acknowledge └────────┬────────┘
+┌─────────────────┐    Publie      ┌─────────────────┐
+│                 │──────────────► │                 │
+│   Producer      │                │    Broker       │
+│  (Spring Boot)  │                │  ActiveMQ       │
+│                 │◄────────────── │   Artemis       │
+└─────────────────┘   Acknowledge  └────────┬────────┘
                                             │
                                             │  Diffuse
                                       ┌─────▼─────┬────────┐
