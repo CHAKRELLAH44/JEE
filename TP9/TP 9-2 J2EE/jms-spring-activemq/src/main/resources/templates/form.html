@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>
+</head>
+<body>
+<h1>Envoyer un message via JMS</h1>
+
+<form th:action="@{/send}" th:object="${emp}" method="post">
+
+    <label for="name">Name</label>
+    <input type="text" th:field="*{name}" id="name" placeholder="Name">
+
+    <label for="fonction">Fonction</label>
+    <input type="text" th:field="*{fonction}" id="fonction" placeholder="Fonction">
+
+    <label for="salaire">Salaire</label>
+    <input type="number" th:field="*{salaire}" id="salaire" placeholder="Salaire">
+
+    <input type="submit" value="Envoyer" class="btn btn-primary">
+</form>
+
+<p th:if="${confirmation}" th:text="${confirmation}"></p>
+
+</body>
+</html>

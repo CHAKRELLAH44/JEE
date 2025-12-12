@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des Messages JMS</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css"/>
+</head>
+
+<body class="container mt-4">
+
+<h2>Messages JMS reçus</h2>
+
+<table class="table table-bordered mt-3">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Fonction</th>
+        <th>Salaire</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr th:each="e : ${employees}">
+        <td th:text="${e.name}"></td>
+        <td th:text="${e.fonction}"></td>
+        <td th:text="${e.salaire}"></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
