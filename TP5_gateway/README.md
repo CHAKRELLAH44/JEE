@@ -85,7 +85,7 @@ GET : http://localhost:9001/Produits
 
 ### Accès via API Gateway (Spring Cloud Gateway)
 ```
-GET : http://localhost:9004/microservice-produits/Produits
+GET : http://localhost:9103/microservice-produits/Produits
 ```
 <p align="center">
   <img src="chemin/vers/image.png" width="700"/>
@@ -125,7 +125,7 @@ Ce TP permet de comprendre :
          │
 ┌────────▼────────┐
 │   API Gateway   │
-│  (port 9004)    │
+│  (port 9103)    │
 │   ┌─────────┐   │
 │   │Routing  │   │
 │   │ Engine  │   │
@@ -134,7 +134,7 @@ Ce TP permet de comprendre :
          │
     ┌────▼─────┐
     │  Eureka  │
-    │ (port 8761)│
+    │ (port 9102)│
     └────┬─────┘
          │
     ┌────▼─────┬─────────┐
@@ -166,10 +166,10 @@ mvn spring-boot:run -pl api-gateway
 ```
 
 ### Vérification du fonctionnement :
-1. **Accéder à Eureka :** `http://localhost:8761`
+1. **Accéder à Eureka :** `http://localhost:9102`
 2. **Vérifier les services enregistrés**
 3. **Tester l'accès direct :** `http://localhost:9001/Produits`
-4. **Tester via Gateway :** `http://localhost:9004/produits/Produits`
+4. **Tester via Gateway :** `http://localhost:9103/produits/Produits`
 
 ## 13. Points techniques clés
 
