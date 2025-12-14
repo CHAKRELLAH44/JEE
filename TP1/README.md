@@ -81,7 +81,7 @@ src/main/resources
 GET : http://localhost:8080/products
 ```
 <p align="center">
-  <img src="chemin/vers/image.png"  width="700"/>
+  <img src="README_assets/tp1/1.png"  width="700"/>
 </p>
 
 
