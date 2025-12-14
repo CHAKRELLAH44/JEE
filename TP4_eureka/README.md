@@ -117,7 +117,7 @@ resources
 
 ### 7.1 Accès à la console Eureka
 ```
-GET : http://localhost:9102/
+ http://localhost:9102/
 ```
 <p align="center">
   <img src="chemin/vers/image.png" width="700"/>
@@ -129,40 +129,7 @@ GET : http://localhost:9102/
  Statut `UP` pour les deux instances  
  Informations détaillées sur chaque instance
 
-### 7.2 Vérification via Config Server
-```
-GET : http://localhost:9101/eureka-server/master
-```
-<p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
-</p>
 
-
-**Résultat :** Configuration Eureka retournée au format JSON
-
-### 7.3 Vérification du microservice Produits
-```
-GET : http://localhost:9001/Produits
-GET : http://localhost:9011/Produits
-```
-
-<p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
-</p>
-
-
-**Résultat :** Les deux instances répondent correctement avec les données de produits
-
-### 7.4 Vérification des endpoints Actuator
-```
-GET : http://localhost:9001/actuator/health
-GET : http://localhost:9011/actuator/health
-GET : http://localhost:9001/actuator/info
-GET : http://localhost:9011/actuator/info
-```
-<p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
-</p>
 
 
 ## 8. Résultat obtenu
