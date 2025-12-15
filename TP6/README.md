@@ -154,10 +154,10 @@ GET : http://localhost:9001/Produits/1
 Console H2 : http://localhost:9001/h2-console/
 ```
 <p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp6/1.png" width="700"/>
 </p>
 <p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp6/1-2.png" width="700"/>
 </p>
 
 
@@ -166,7 +166,7 @@ Console H2 : http://localhost:9001/h2-console/
 Console H2 : http://localhost:9002/h2-console/
 ```
 <p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp6/2.png" width="700"/>
 </p>
 
 **Microservice Paiement :**
@@ -174,7 +174,7 @@ Console H2 : http://localhost:9002/h2-console/
 Console H2 : http://localhost:9003/h2-console/
 ```
 <p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp6/3.png" width="700"/>
 </p>
 
 
@@ -185,7 +185,7 @@ Console H2 : http://localhost:9003/h2-console/
 GET : http://localhost:8080/
 ```
 <p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp6/4.png" width="700"/>
 </p>
 
 **Scénarios testés :**
