@@ -71,7 +71,7 @@ com.myHR.api_sb
 GET : http://localhost:9000/employees
 ```
 <p align="center">
-  <img src="chemin/vers/image.png"  width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp2/1.png" width="700"/>
 </p>
 
 ### Console H2
@@ -79,7 +79,7 @@ GET : http://localhost:9000/employees
 URL : http://localhost:9000/h2-console
 ```
 <p align="center">
-  <img src="chemin/vers/image.png"  width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp2/2.png" width="700"/>
 </p>
 
 
