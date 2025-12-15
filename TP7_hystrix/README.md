@@ -82,7 +82,7 @@ resources
 GET : http://localhost:9000/myMessage
 ```
 <p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp7/1.png" width="700"/>
 </p>
 
 **Résultat attendu :**
@@ -96,7 +96,7 @@ GET : http://localhost:9000/myMessage
    GET : http://localhost:9000/hystrix
    ```
 <p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp7/2.png" width="700"/>
 </p>
 
 2. **Configurer le stream :**
@@ -105,10 +105,10 @@ GET : http://localhost:9000/myMessage
    Title : Employee Service
    ```
 <p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp7/3.png" width="700"/>
 </p>
 <p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp7/4.png" width="700"/>
 </p>
 
 3. **Observer le comportement :**
