@@ -120,7 +120,7 @@ resources
  http://localhost:9102/
 ```
 <p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp4/1.png" width="700"/>
 </p>
 
 **Résultat :**
