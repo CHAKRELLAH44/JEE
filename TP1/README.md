@@ -92,8 +92,9 @@ GET : http://localhost:8080/products
 GET : http://localhost:8080/products/1
 ```
 <p align="center">
-  <img src="chemin/vers/image.png"  width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp1/2.png" width="700"/>
 </p>
+
 
 
 #### POST - Créer un nouveau produit
@@ -106,7 +107,7 @@ Body JSON :
 }
 ```
 <p align="center">
-  <img src="chemin/vers/image.png"  width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp1/3.png" width="700"/>
 </p>
 
 #### PUT - Mettre à jour un produit
@@ -114,7 +115,7 @@ Body JSON :
 PUT : http://localhost:8080/products/1
 ```
 <p align="center">
-  <img src="chemin/vers/image.png"  width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp1/4.png" width="700"/>
 </p>
 
 #### DELETE - Supprimer un produit
@@ -122,7 +123,7 @@ PUT : http://localhost:8080/products/1
 DELETE : http://localhost:8080/products/5
 ```
 <p align="center">
-  <img src="chemin/vers/image.png"  width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp1/5.png" width="700"/>
 </p>
 
 ### Test du format XML
