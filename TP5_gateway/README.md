@@ -79,7 +79,7 @@ Cette approche est conforme aux bonnes pratiques actuelles, Spring Cloud Gateway
 GET : http://localhost:9001/Produits
 ```
 <p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp5/1.png" width="700"/>
 </p>
 
 
@@ -88,7 +88,7 @@ GET : http://localhost:9001/Produits
 GET : http://localhost:9103/microservice-produits/Produits
 ```
 <p align="center">
-  <img src="chemin/vers/image.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp5/2.png" width="700"/>
 </p>
 
 ### Résultats obtenus :
