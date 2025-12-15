@@ -96,7 +96,7 @@ GET : http://localhost:9101/microservice-produits/default
 GET : http://localhost:9101/microservice-produits/default/master
 ```
 <p align="center">
-  <img src="chemin/vers/image.png"  width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp3/1.png" width="700"/>
 </p>
 
 **Résultat :** Les configurations sont retournées au format JSON
@@ -106,7 +106,7 @@ GET : http://localhost:9101/microservice-produits/default/master
 GET : http://localhost:9001/Produits
 ```
 <p align="center">
-  <img src="chemin/vers/image.png"  width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp3/2.png" width="700"/>
 </p>
 
 **Résultat :** Le nombre de produits affichés correspond à la valeur définie dans GitHub
@@ -196,7 +196,7 @@ GET : http://localhost:9001/actuator
 GET : http://localhost:9001/actuator/health
 ```
 <p align="center">
-  <img src="chemin/vers/image.png"  width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp3/3.png" width="700"/>
 </p>
 
 - Utilisation de l'interface `HealthIndicator`
