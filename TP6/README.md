@@ -185,7 +185,7 @@ Console H2 : http://localhost:9003/h2-console/
 GET : http://localhost:8080/
 ```
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp6/4.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/CHAKRELLAH44/JEE/master/README_assets/tp6/t.png" width="700"/>
 </p>
 
 **Scénarios testés :**
